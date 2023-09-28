@@ -26,6 +26,8 @@ registry where registry.value : "ServiceDLL" and process.executable : ("?:\\*", 
                            "?:\\Program Files\\*.exe",
                            "?:\\Windows\\Temp\\*-*-*\\DismHost.exe",
                            "?:\\$WINDOWS.~BT\\Work\\*\\DismHost.exe",
+                           "?:\\$WinREAgent\\Scratch\\*\\DismHost.exe",
+                           C:\$WinREAgent\Scratch\A
                            "?:\\Windows\\SoftwareDistribution\\*.exe",
                            "?:\\Windows\\regedit.exe",
                            "?:\\Windows\\System32\\reg.exe",
